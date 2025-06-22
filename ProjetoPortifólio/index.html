@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Meu portfólio</title>
+  </head>
+
+  <body>
+    <header class="container text-center">
+      <img
+        src="img/ChatGPT Image 17 de mai. de 2025, 20_37_49.png"
+        alt="avatar"
+        class="rounded-circle"
+        width="150"
+        height="150"
+      />
+      <p class="lead">Eu sou Felipe</p>
+      <h1>Eu estou cursando Programação Básica</h1>
+      <p>
+        Aluno do 2º Ano do Ensino Médio. Estou cursando Programação, trabalhando
+        conceitos básicos.
+      </p>
+      <p>Minhas habilidades</p>
+      <div>
+        <p class="badge bg-secondary">HTML</p>
+        <p class="badge bg-secondary">CSS</p>
+        <p class="badge bg-secondary">JavaScript</p>
+      </div>
+    </header>
+    <main class="container mt-5">
+      <h2>Meus projetos</h2>
+      <div class="row">
+        <!-- Projeto 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/Screenshot 2025-05-21 07.56.45.png"
+              class="card-img-top"
+              alt="Projeto Monalisa"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Projeto Monalisa</h5>
+              <p class="card-text">
+                Utilizando formas geométricas simples e mapeamento de
+                coordenadas do mouse, o projeto simula o movimento dos olhos,
+                criando uma sensação de que o personagem observa o cursor do
+                usuário.
+              </p>
+              <button
+                type="button"
+                class="btn btn-link"
+                data-bs-toggle="modal"
+                data-bs-target="#Modal1"
+              >
+                Veja o projeto
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/Screenshot 2025-05-21 07.57.09.png"
+              class="card-img-top"
+              alt="Projeto corrida"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Corrida de dois de jogadores</h5>
+              <p class="card-text">
+                Com visual colorido e controle simples, o jogo desenha os carros
+                dos participantes e atualiza a tela em tempo real. A lógica
+                verifica constantemente que vence a corrida e também muda o
+                fundo de tela com base na interação.
+              </p>
+              <button
+                type="button"
+                class="btn btn-link"
+                data-bs-toggle="modal"
+                data-bs-target="#Modal2"
+              >
+                Veja o projeto
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/Screenshot 2025-05-21 07.58.23.png"
+              class="card-img-top"
+              alt="Projeto corrida roda a roda"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jogo dos carrinhos</h5>
+              <p class="card-text">
+                É um jogo de corrida inspirado no Roda a Roda Jequiti. Quatro
+                carrinhos representados por emojis correm da direita para a
+                esquerda até a linha de chegada. O fundo muda de cor conforme a
+                janela ativa ou não.
+              </p>
+              <button
+                type="button"
+                class="btn btn-link"
+                data-bs-toggle="modal"
+                data-bs-target="#Modal3"
+              >
+                Veja o projeto
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Modal1 -->
+    <div class="modal" id="Modal1" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Projeto Monalisa</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Este projeto, intitulado “monalisa”, foi desenvolvido em p5.js e
+              recria uma face minimalista e expressiva que homenageia a famosa
+              obra de Leonardo da Vinci. O rosto é composto por formas
+              geométricas simples, como círculos e triângulos, que desenham o
+              contorno da cabeça, olhos, boca e nariz. Os olhos são programados
+              para acompanhar o movimento do mouse, criando uma sensação
+              interativa e dando a impressão de que a figura observa o usuário.
+            </p>
+            <p>
+              Além disso, a paleta de cores quentes e o fundo escuro reforçam o
+              contraste entre os elementos e destacam os traços principais. O
+              projeto combina conceitos de programação criativa e arte digital,
+              tornando-se um exercício simples, visual e envolvente para quem
+              está começando a explorar animações e interatividade com p5.js.
+            </p>
+            <img
+              src="img/Screenshot 2025-05-21 07.56.45.png"
+              class="img-fluid"
+              alt="Imagem representativa Monalisa"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="https://editor.p5js.org/FelipeGonca/full/eNujlv6E7" target="_blank">Ver projeto ao vivo</a>
+            <a href="https://editor.p5js.org/FelipeGonca/sketches/eNujlv6E7" target="_blank">Ver código do projeto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal2 -->
+    <div class="modal" id="Modal2" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Projeto Corrida</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Este projeto de corrida, desenvolvido em p5.js, simula uma disputa
+              entre dois veículos que avançam automaticamente da esquerda para a
+              direita da tela. O cenário é simples e funcional: há uma pista
+              definida visualmente por um fundo colorido e uma linha de chegada
+              demarcada. Os carros são representados por formas coloridas e
+              ocupam faixas separadas para maior clareza.
+            </p>
+            <p>
+              Ao longo da animação, cada carro percorre a pista em velocidades
+              constantes, atualizando sua posição a cada frame. O jogo verifica
+              continuamente a posição de cada competidor para determinar quando
+              um deles cruza a linha final, momento em que a corrida é
+              encerrada. Além disso, o fundo muda de cor dinamicamente quando a
+              janela perde o foco, criando um feedback visual interativo para o
+              usuário.
+            </p>
+            <img
+              src="img/Screenshot 2025-05-21 07.57.09.png"
+              class="img-fluid"
+              alt="Imagem representativa corrida"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="https://editor.p5js.org/FelipeGonca/full/b_MDv7QNc" target="_blank">Ver projeto ao vivo</a>
+            <a href="https://editor.p5js.org/FelipeGonca/sketches/b_MDv7QNc" target="_blank">Ver código do projeto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal3 -->
+    <div class="modal" id="Modal3" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Jogo dos Carrinhos</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Este projeto, inspirado no jogo dos carrinhos do programa Roda a
+              Roda Jequiti, foi criado em p5.js e simula uma corrida entre
+              quatro veículos que avançam automaticamente da direita para a
+              esquerda até a linha de chegada. Cada carro é representado por um
+              emoji colorido e segue em pistas separadas, tornando a disputa
+              clara e visualmente divertida.
+            </p>
+            <p>
+              Ao longo da animação, os carros se movimentam continuamente em
+              velocidades definidas, e uma linha quadriculada na lateral da tela
+              marca o ponto de chegada. Para tornar a interação mais dinâmica, o
+              fundo altera a cor quando a janela do navegador perde o foco,
+              criando um feedback visual que reforça o engajamento do usuário.
+            </p>
+            <p>
+              Esse projeto une animação simples, loops e controle de variáveis
+              para simular a emoção da corrida, além de capturar o clima leve e
+              competitivo do jogo que serviu de inspiração. É um ótimo exercício
+              para quem quer praticar programação criativa e animações
+              interativas.
+            </p>
+            <img
+              src="img/Screenshot 2025-05-21 07.58.23.png"
+              class="img-fluid"
+              alt="Imagem representativa Monalisa"
+            />
+          </div>
+          <div class="modal-footer">
+            <a href="https://editor.p5js.org/FelipeGonca/full/R6xMgV_CY" target="_blank">Ver projeto ao vivo</a>
+            <a href="https://editor.p5js.org/FelipeGonca/sketches/R6xMgV_CY" target="_blank">Ver código do projeto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container py-5">
+      <h2>Entre em contato</h2>
+      <div>
+        <i class="bi bi-github"></i>
+        <a href="https://github.com/FelipeGoncalves0903" target="_blank">Github</a>
+      </div>
+      <p class="my-5 text-center">© Copyright 2025. Produzido por Felipe</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
